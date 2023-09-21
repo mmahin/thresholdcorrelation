@@ -1,0 +1,34 @@
+---
+title: "thresholdcorrelation-overview"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{thresholdcorrelation-overview}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+## thresholdcorrelation: Overview
+
+The *`thresholdcorrelation` package provides tools to calculate and visualize threshold correlations. In this vignette, we'll walk through the main *`functionalities` and show a simple example of how to leverage this package.
+
+## Main Functions
+
+The package provides the following main functions:
+
+* `tcorr`: Calculates the threshold correlation.
+* `tables`: Retrieves the specified correlation table.
+* `thresholds`: Retrieves threshold vectors.
+* `statistics`: Computes summary statistics.
+* `display`: Displays the specified correlation table.
+
+
+
+
+
